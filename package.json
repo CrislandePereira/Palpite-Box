@@ -1,0 +1,28 @@
+{
+  "name": "palpite-box",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "keywords": [],
+  "author": "Cris Pereira",
+  "license": "MIT",
+  "dependencies": {
+    "google-spreadsheet": "^3.3.0",
+    "moment": "^2.29.4",
+    "next": "^13.0.5",
+    "postcss-import": "^13.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "swr": "^1.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "postcss-nesting": "^10.2.0",
+    "tailwindcss": "^1.9.0"
+  }
+}
