@@ -9,7 +9,7 @@ const Header = () => {
             <div className={styles.wrapper}>
                 <div  className="container mx-auto">
                     <Link href='/' legacyBehavior>
-                        <a><img className='mx-auto' src="./logo_palpitebox.png" alt='Palpite Box'/></a>
+                        <a><img className='mx-auto' src="../logo_palpitebox.png" alt='Palpite Box'/></a>
                     </Link>
                 </div>
             </div>

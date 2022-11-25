@@ -9,8 +9,8 @@ const Footer = () => {
                 <a className="hover:underline" href="https://github.com/CrislandePereira"> Github </a>
 
                 <div className="mt-4"> 
-                    <img className="inline p-4" src="./logo_semana_fsm.png"/>
-                    <img className="inline p-4" src="./logo_devpleno.png"/>
+                    <img className="inline p-4" src="../logo_semana_fsm.png"/>
+                    <img className="inline p-4" src="../logo_devpleno.png"/>
                 </div>
             </div>
         </div>
