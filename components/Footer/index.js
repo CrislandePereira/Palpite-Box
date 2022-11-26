@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image'
 
 const Footer = () => {
     return (
@@ -9,8 +10,8 @@ const Footer = () => {
                 <a className="hover:underline" href="https://github.com/CrislandePereira"> Github </a>
 
                 <div className="mt-4"> 
-                    <img className="inline p-4" src="../logo_semana_fsm.png"/>
-                    <img className="inline p-4" src="../logo_devpleno.png"/>
+                    <Image className="inline p-4" src="/logo_semana_fsm.png" width={150} height={300}/>
+                    <Image className="inline p-4" src="/logo_devpleno.png" width={150} height={300}/>
                 </div>
             </div>
         </div>
